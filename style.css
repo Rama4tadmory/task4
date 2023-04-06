@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url( ./166448bb602550524d906cbdca70189c\ 1.png);
+    
+}
+
+nav  {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    /*justify-content: space-between;*/
+    margin-bottom: 100px;
+    
+   
+    
+}
+nav .item a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    justify-content: center;
+    margin:0 20px;
+    gap: 20px;
+    
+}
+nav .logo{
+    padding-right: 50px;;
+    
+}
+.login_item{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+.login{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    padding-left: 100px;
+    
+}
+
+.language{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    
+    color: black;
+    padding:0px 0px 0px 150px;
+    margin: 0px;
+    
+}
+.language span{
+    color: coral;
+}
+ .content {
+    margin: 16px 240px;
+    
+    padding: 0px;
+    
+}
+main{
+    height: 200px;
+    width: 100%;
+}
+
+.content h1 {
+    margin: 0px 281pxx;
+    width: 250px;
+    height: 29px;
+    text-align: center;
+}
+.content button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
+background: #282828;
+border-radius: 4px;
+color: white;
+margin: 0px 290px;
+padding: 6px;
+font-size: 20px;
+
+}
+.search input{
+    border: none;
+    border-bottom:2px solid gray;
+    margin: 10px 300px;
+    font-size: 20px;
+    padding: 10px 0px;
+    width: 657px;
+    color: gray;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.item__card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: gray;
+    width:100%;
+    height: 50px;
+    margin: 0px;
+    justify-content: space-between;
+    margin-left: 310px;
+    
+}
+.card1{
+    width: 300px;
+    height: 450px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin: 100px 200px 20px -523px;
+}
+.card1 .introduction{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px;
+    
+}
+.card1 .introduction #p1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    width: 119px;
+    height: 24px;
+    padding: 10px;
+}
+.card1 .introduction #p2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 19px;
+text-align: right;
+padding-left: 45px;
+padding-top: 20px;
+color: gray;
+
+}
+
+.info p{
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+.info p span{
+    color: gray;
+}
+.active{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:10px ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px;
+}
+ .button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 22px;
+color: white;
+background-color: black;
+width: 70%;
+margin: 10px 25px 10px 35px;
+padding: 10px;
+}
+.card2{
+    width: 300px;
+    height: 450px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin: 100px 381px 20px -119px;
+}
+.card2 .introduction{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px;
+    
+}
+.card2 .introduction #p12{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    width: 119px;
+    height: 24px;
+    padding: 10px;
+}
+.card2 .introduction #p22{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 19px;
+text-align: right;
+padding-left: 45px;
+padding-top: 20px;
+color: gray;
+
+}
+
+.info p{
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+.info p span{
+    color: gray;
+}
+.active{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:10px ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px;
+}
+ .button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 22px;
+color: white;
+background-color: black;
+width: 70%;
+margin: 10px 25px 10px 35px;
+padding: 10px;
+}
+.info h1{
+    font-family: 'Montserrat';
+font-style: normal;
+
+font-size: 26px;
+line-height: 28px;
+padding: 10px;
+}
+.card3{
+    width: 300px;
+    height: 450px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin: 100px 0px 20px -286px;
+}
+.card3 .introduction{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px;
+    
+}
+.card3 .introduction #p13{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    width: 119px;
+    height: 24px;
+    padding: 10px;
+}
+.card3 .introduction #p23{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 19px;
+text-align: right;
+padding-left: 45px;
+padding-top: 20px;
+color: gray;
+
+}
+
+.info p{
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+.info p span{
+    color: gray;
+}
+.active{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:10px ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px;
+}
+.button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 22px;
+color: white;
+background-color: black;
+width: 70%;
+margin: 10px 25px 10px 35px;
+padding: 10px;
+}
+.info h1{
+    font-family: 'Montserrat';
+font-style: normal;
+
+font-size: 26px;
+line-height: 28px;
+padding: 10px;
+}
+
+/*search Employee*/
+.cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.card1_2{
+    width: 300px;
+    height: 350px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin: 100px 0px 50px    100px;
+}
+ .introduction_2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px;
+}
+  .introduction_2_p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 119px;
+    height: 24px;
+    padding: 10px;
+}
+.card_jop{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 28px;
+    padding: 10px;
+}
+.info_2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+
+}
+.p span{
+    color: gray;
+}
+.button2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 22px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 10px 25px 10px 35px;
+    padding: 10px;
+
+}
+.cards_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: gray;
+    width:100%;
+    height: 50px;
+    margin: 0px;
+    justify-content: space-between;
+    margin-left: 310px;
+}
+.card1_22{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    margin: 0px;
+    justify-content: space-between;
+    margin-left: 310px;
+    width: 300px;
+    height: 350px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin:-403px 0px 50px 457px;
+
+}
+.card1_23{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+   border-radius: 10px;
+   margin:-399px 0px 50px 849px
+
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   
+    
+}
+footer .jop{
+    
+    padding: 10px 67px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+footer .jop h1{
+    padding: 10px 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.end_footer{
+    color: white;
+    padding: 10px 70px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.end_footer img{
+    padding-top: 8px;
+    width: 731px;
+    height: 10px;
+}
+
+
+/*Companies*/
+
+.company{
+    margin-bottom: 100px;
+}
+.company2{
+    margin: 00px 0px 00px 0px;
+}
+.text h1{
+    margin-left: 406px;
+    font-size: 40px;
+}
+.photo{
+    width: 100%;
+    padding: 30px;
+    margin-left: 100px;
+}
+.photo img{
+    padding: 30px;
+}
+.text_2 h1{
+    margin-left: 300px;
+    font-size: 40px;
+}
+.photo2{
+    width: 100%;
+    padding: 30px;
+    margin-left: 100px;
+}
+.photo2 img{
+    padding: 30px;
+}
